@@ -1,0 +1,14 @@
+.gg {
+  width: 750px;
+  height: 750px;
+  background-image: url(4.jpg);
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .gg {
+    background-image: url(four-2x.jpg);
+  }
+}
